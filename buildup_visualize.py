@@ -60,6 +60,7 @@ def build_bot_detection_dataset():
   return dataset
 
 # 시각화
+%%writefile build.py
 # 두 집단(봇과 사람 표준편차 데이터의 분포 비교 시각화
 def visualize_by_numpy(dataset):
   # 1. 표준편차 샘플 추출 (160,)
